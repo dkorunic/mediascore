@@ -87,7 +87,7 @@ func openCache() (*storm.DB, *storm.DB, error) {
 // closeCache closes Movie/TV cache (storm/bbolt database) if it is initialized
 func closeCache(db *storm.DB) error {
 	if db == nil {
-		return fmt.Errorf("cache not sucessfully initialized")
+		return fmt.Errorf("cache not successfully initialized")
 	}
 
 	return db.Close()
@@ -109,7 +109,7 @@ func getCacheKey(vars ...string) []byte {
 // updateCache saves renderTable data into Movie/TV cache (storm/bbolt database)
 func updateCache(db *storm.DB, v renderTable) error {
 	if db == nil {
-		return fmt.Errorf("cache not sucessfully initialized")
+		return fmt.Errorf("cache not successfully initialized")
 	}
 
 	return db.Save(&v.data)
@@ -118,7 +118,7 @@ func updateCache(db *storm.DB, v renderTable) error {
 // getCacheOne returns a single cache entry matching value with fieldName contents in the cache (storm/bbolt database)
 func getCacheOne(db *storm.DB, fieldName string, value interface{}, to interface{}) error {
 	if db == nil {
-		return fmt.Errorf("cache not sucessfully initialized")
+		return fmt.Errorf("cache not successfully initialized")
 	}
 
 	return db.One(fieldName, value, to)

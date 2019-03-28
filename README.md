@@ -3,6 +3,8 @@ mediascore
 
 [![GitHub license](https://img.shields.io/github/license/dkorunic/mediascore.svg)](https://github.com/dkorunic/mediascore/blob/master/LICENSE.txt)
 [![GitHub release](https://img.shields.io/github/release/dkorunic/mediascore.svg)](https://github.com/dkorunic/mediascore/releases/latest)
+[![codebeat badge](https://codebeat.co/badges/87fae30b-be28-470f-8c45-b49322420a6f)](https://codebeat.co/projects/github-com-dkorunic-mediascore-master)
+[![Go Report Card](https://goreportcard.com/badge/github.com/dkorunic/mediascore)](https://goreportcard.com/report/github.com/dkorunic/mediascore)
 
 ## About
 
